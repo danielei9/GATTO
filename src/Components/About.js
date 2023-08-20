@@ -18,22 +18,32 @@ class About extends Component {
 
     return (
       <section id="about">
-        <Fade duration={1000}>
-          <div className="row">
+        <Fade bottom duration={2000} delay={2000}>
+          <div className="row" style={{ background: "#000000", padding: "4rem", borderRadius: "30px" }} > 
             <div className="three columns">
               <img
                 className="profile-pic"
                 src={profilepic}
                 alt="Nordic Giant Profile Pic"
               />
+              <img
+                className="profile-pic"
+                src={profilepic}
+                alt="Nordic Giant Profile Pic"
+              />
+              <img
+                className="profile-pic"
+                src={profilepic}
+                alt="Nordic Giant Profile Pic"
+              />
             </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
+            <div className="nine columns main-col" >
+              <h2>Que es GATTO?</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Eres artista?</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />
@@ -51,7 +61,7 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                      <i className="fa fa-download"></i>Contacta con Nosotros
                     </a>
                   </p>
                 </div>
