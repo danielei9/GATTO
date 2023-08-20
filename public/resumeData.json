@@ -1,9 +1,9 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"GATTO",
+    "description":"Sumérgete en el Universo Gatto", 
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Gatto trasciende los límites, llevándote en un viaje sensorial a través de su radio show, eventos al aire libre y escenarios frente al mar. Únete a nosotros mientras elevamos la música a una experiencia estética y culturalmente enriquecedora. ¡Bienvenido a Gatto!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
