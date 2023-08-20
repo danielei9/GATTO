@@ -1,0 +1,5 @@
+.image {
+    opacity: 0; /* Inicialmente, la imagen está oculta */
+    transition: opacity 1s ease-in-out; /* Transición de opacidad con duración de 1 segundo */
+    transition-delay: 0.5s; /* Retraso de 0.5 segundos antes de que comience la transición */
+  }
