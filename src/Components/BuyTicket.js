@@ -18,7 +18,7 @@ class BuyTicket extends Component {
 
     return (
       <section id="buyTicket">
-        <Fade bottom duration={2000} delay={2000}>
+        <Fade bottom duration={2000} delay={500}>
           <div className="row" style={{ background: "#000000", padding: "4rem", borderRadius: "30px", textAlign: "center", display: "flex",flexDirection: "column",alignItems: "center"}} >
             <img
               className="profile-pic"

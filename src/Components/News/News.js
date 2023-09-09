@@ -3,40 +3,22 @@ import "./News.css"
 //Temporarily store data here
 const PostsData = [
     {
-      "category": "News",
-      "title": "CNN Acquire BEME",
-      "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-      "image": "https://source.unsplash.com/user/erondu/600x400"
+      "category": "Gattos por el mundo",
+      "title": "Encontramos un Gato Roto en Gatto",
+      "text": "Encuentran un gato roto en Gatto avistado por that G.",
+      "image": "https://wonder-day.com/wp-content/uploads/2022/03/wonder-day-avatar-memes-cats-35.jpg"
     },
     {
-      "category": "Travel",
-      "title": "Nomad Lifestyle",
-      "text": "Learn our tips and tricks on living a nomadic lifestyle",
-      "image": "https://source.unsplash.com/user/_vickyreyes/600x400"
+      "category": "MIAUMIAU",
+      "title": "Confesiones de un gatto",
+      "text": " Fingí dormir durante toda la noche , ¡pero estaba en la fiesta gaTTo!",
+      "image": "https://media.istockphoto.com/id/955853964/es/foto/corte-siam%C3%A9s-gato-fiesta-cumplea%C3%B1os-sombrero.jpg?s=612x612&w=0&k=20&c=6ulSn39DWscT_nPLOnRjKjv_yw_aSJ2qXF0BfvGIz2E="
     },
     {
-      "category": "Development",
-      "title": "React and the WP-API",
-      "text": "The first ever decoupled starter theme for React & the WP-API",
-      "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
-    },
-    {
-      "category": "News",
-      "title": "CNN Acquire BEME",
-      "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-      "image": "https://source.unsplash.com/user/erondu/600x400"
-    },
-    {
-      "category": "Travel",
-      "title": "Nomad Lifestyle",
-      "text": "Learn our tips and tricks on living a nomadic lifestyle",
-      "image": "https://source.unsplash.com/user/_vickyreyes/600x400"
-    },
-    {
-      "category": "Development",
-      "title": "React and the WP-API",
-      "text": "The first ever decoupled starter theme for React & the WP-API",
-      "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
+      "category": "Miau",
+      "title": "Miau miau miau ",
+      "text": "miaumiau miaumiuamiuamiuamiuamiaumiua miaumiuamiu",
+      "image": "https://media.istockphoto.com/id/1434414228/es/foto/gato-triste-severo-aislado-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=QGGbL2hCXlHUOYAy9E9X4ltZDYfI7a9yMd7Hio3ZK4A="
     }
   ]
   
@@ -60,7 +42,7 @@ const PostsData = [
   
     render() {
       return <div id="news" style={{display:"flex"}}>
-        <Title />
+        <Title id=""/>
         <div className="app-card-list" id="app-card-list">
           {
             Object
@@ -77,9 +59,8 @@ class Title extends React.Component {
   render() {
     return <section className="app-title">
       <div className="app-title-content">
-        <h1>Latest News</h1>
-        <p>Covering March & April 2015</p>
-        <a className="designer-link" href="https://dribbble.com/shots/1978243-Latest-News" target="_blank">Design from <i className="fa fa-dribbble"></i></a>
+        <h1 id="titleNews">Latest News</h1>
+        <p>Covering 2027</p>
       </div>
     </section>
   }
@@ -117,7 +98,7 @@ class CardBody extends React.Component {
   render() {
     return (
       <div className="card-body">
-        <p className="date">March 20 2015</p>
+        <p className="date">Septiembre 2047</p>
         
         <h2>{this.props.title}</h2>
         

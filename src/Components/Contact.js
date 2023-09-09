@@ -36,7 +36,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      GatoMiauNombre <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      MiauEmail <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -63,7 +63,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">GatoTitulo</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -76,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      GatoMensaje <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -87,7 +87,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">MIAU</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -122,22 +122,24 @@ class Contact extends Component {
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                    ¿Qué le dijo un gato a otro gato? 
+                    </span>
+                    
+                    <span>
+                      ¿Me prestas tu rastrillo?
+                      {/* <a href="./">http://t.co/CGIrdxIlI3</a> */}
                     </span>
                     <b>
                       <a href="./">2 Days Ago</a>
                     </b>
                   </li>
                   <li>
+                  <span>
+                  ¿Qué hace un gato cuando te está mintiendo?                    </span>
+                    
                     <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                    Guau No
+                    {/* <a href="./">http://t.co/CGIrdxIlI3</a> */}
                     </span>
                     <b>
                       <a href="./">3 Days Ago</a>

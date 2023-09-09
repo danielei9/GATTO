@@ -23,17 +23,17 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
+                src={"images/Sokiç.PNG"}
                 alt="Nordic Giant Profile Pic"
               />
               <img
                 className="profile-pic"
-                src={profilepic}
+                src={"images/buchu.PNG"}
                 alt="Nordic Giant Profile Pic"
               />
               <img
                 className="profile-pic"
-                src={profilepic}
+                src={"images/Javi.PNG"}
                 alt="Nordic Giant Profile Pic"
               />
             </div>
@@ -60,7 +60,7 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href="#contact" className="button">
                       <i className="fa fa-download"></i>Contacta con Nosotros
                     </a>
                   </p>

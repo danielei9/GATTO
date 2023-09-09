@@ -1,47 +1,37 @@
 {
   "main": {
     "name":"GATTO",
-    "description":"Sumérgete en el Universo Gatto", 
+    "description":"Eh... Tú ... Te vienes de FIESTA?", 
     "image":"profilepic.jpg",
-    "bio":"Gatto trasciende los límites, llevándote en un viaje sensorial a través de su radio show, eventos al aire libre y escenarios frente al mar. Únete a nosotros mientras elevamos la música a una experiencia estética y culturalmente enriquecedora. ¡Bienvenido a Gatto!",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"Gatto es como tu colega el más liado que convence a tu madre para que te deje salir y luego la convence para que os recoja del calobozo. Gatto es como cuando vas a cagar y dices...hoy no he comido kebab. Gatto es la mejor forma de distraerse del mundo de los humanos, y entrar en el mundo nocturno de los gattos. ¿Que no es gatto?? Gatto no es otra fiesta, GATTO ES LA FUCKING FIESTA!",
+    "contactmessage":"Miau... Contáctanos y te lanzaremos un gato por tu cumpleaños.",
+    "email": "gattoProject@gmail.com",
+    "phone": "627669080",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"La casa de mi Amo humano",
+      "city":"ValenCity",
+      "state":"Estado de los gatitos",
+      "zip": "666"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "",
+    "resumedownload":"stripe.com",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
       {
         "name":"twitter",
         "url":"http://twitter.com",
         "className":"fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name":"tiktok",
+        "url":"https://www.tiktok.com/",
+        "className":"fa fa-tik-tok"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/gattoproject",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
